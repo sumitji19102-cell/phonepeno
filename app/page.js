@@ -77,7 +77,7 @@ export default function Page() {
             </div>
           </div>
 
-          <div className="text-[16px] font-bold">₹15 </div>
+          <div className="text-[16px] font-bold">₹15</div>
         </div>
 
         <div className="flex justify-center my-3">
@@ -179,7 +179,7 @@ export default function Page() {
       </div>
 
       {/* INPUTS */}
-      <div className="p-3 space-y-2 mt-[250px]">
+      <div className="p-3 space-y-2 mt-[300px]">
         <input
           value={name}
           onChange={(e) => setName(e.target.value)}
