@@ -59,7 +59,7 @@ export default function Page() {
       </div>
 
       {/* CARD */}
-      <div className="mt-3 bg-[#121212] rounded-[14px] p-3 px-4 mx-2 ">
+      <div className="mt-2 bg-[#121212] rounded-[14px] p-3 px-4 mx-2 ">
 
         <div className="text-[15px] font-bold">Paid to</div>
 
@@ -170,7 +170,7 @@ export default function Page() {
       </div>
 
       {/* FOOTER */}
-      <div className="text-center text-[10px] text-gray-500 mt-5 flex flex-col items-center">
+      <div className="text-center text-[10px] text-gray-500 mt-9 flex flex-col items-center">
         <span>Powered by</span>
         <img
           src="https://i.ibb.co/ZzNzJVZ8/Chat-GPT-Image-Apr-30-2026-04-24-56-PM-1.png"
