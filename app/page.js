@@ -77,7 +77,7 @@ export default function Page() {
             </div>
           </div>
 
-          <div className="text-[16px] font-bold">₹15</div>
+          <div className="text-[16px] font-bold">₹15 </div>
         </div>
 
         <div className="flex justify-center my-3">
