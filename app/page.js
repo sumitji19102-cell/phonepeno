@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import { FiArrowLeft } from "react-icons/fi";
-import { MdKeyboardArrowUp, MdKeyboardArrowRight } from "react-icons/md";
+import { MdKeyboardArrowRight } from "react-icons/md";
 import { LuMessageCircleQuestion } from "react-icons/lu";
 import { IoIosArrowUp } from "react-icons/io";
 
@@ -47,7 +47,7 @@ export default function Page() {
   }, []);
 
   return (
-    <div className="bg-black min-h-screen font-sans text-white font-bold tracking-wide">
+    <div className="bg-[#0d0d0d] min-h-screen font-sans text-white font-bold tracking-wide">
 
       <meta name="theme-color" content="#2ad11e" />
 
@@ -60,7 +60,7 @@ export default function Page() {
 
           <div>
 
-            <div className="text-[16px] font-bold tracking-wide">
+            <div className="text-[16px] font-extrabold tracking-wide">
               Transaction Successful
             </div>
 
@@ -75,7 +75,7 @@ export default function Page() {
       </div>
 
       {/* CARD */}
-      <div className="mt-2 bg-[#171717] rounded-[14px] p-3 px-4 mx-2 ">
+      <div className="mt-2 bg-[#171717] rounded-[14px] p-3 px-4 mx-2">
 
         <div className="text-[15px] font-bold tracking-wide">
           Paid to
@@ -93,20 +93,20 @@ export default function Page() {
               {name}
             </div>
 
-            <div className="text-[13px] text-gray-400 font-bold tracking-wide">
+            <div className="text-[13px] mt-[-4px] text-[#bdbdbd] font-bold tracking-wide">
               {upi}
             </div>
 
           </div>
 
-          <div className="text-[17px] font-bold tracking-wide">
+          <div className="text-[17px] font-extrabold tracking-wide">
             ₹15
           </div>
 
         </div>
 
         <div className="flex justify-center my-3">
-          <div className="h-[1px] w-[370px] bg-gray-700"></div>
+          <div className="h-[0.2px] w-[370px] bg-[#bdbdbd]/40"></div>
         </div>
 
         {/* TRANSFER */}
@@ -130,11 +130,11 @@ export default function Page() {
         </div>
 
         {/* TXN */}
-        <div className="mt-3 text-[14px] text-gray-400 font-bold tracking-wide">
+        <div className="mt-3 text-[14px] text-[#bdbdbd] font-bold tracking-wide">
           Transaction ID
         </div>
 
-        <div className="flex justify-between ">
+        <div className="flex justify-between">
 
           <div className="text-[16px] font-bold tracking-wide">
             {txnId}
@@ -148,11 +148,11 @@ export default function Page() {
         </div>
 
         {/* DEBIT */}
-        <div className=" text-[14px] text-gray-400 font-bold tracking-wide">
+        <div className="text-[14px] text-[#bdbdbd] font-bold tracking-wide">
           Debited from
         </div>
 
-        <div className="flex items-start ">
+        <div className="flex items-start">
 
           <img
             src="https://play-lh.googleusercontent.com/dYccpbwJFL2BXc1YsOSCPjNX9CmGwqvjB-hMtkCltd9ijBQcyEu5c8sJNyTbNBXnOgI"
@@ -163,19 +163,19 @@ export default function Page() {
 
             <div className="flex justify-between">
 
-              <div className="text-[16px] font-bold tracking-wide">
+              <div className="text-[16px] font-bold tracking-wide ml-2">
                 XXXXXXX4987
               </div>
 
-              <div className="font-bold text-[17px] tracking-wide">
+              <div className="font-extrabold text-[17px] tracking-wide">
                 ₹15
               </div>
 
             </div>
 
-            <div className="flex justify-between mt-1">
+            <div className="flex justify-between mt-1 ml-2">
 
-              <div className="text-[16px] text-gray-400 font-bold tracking-wide">
+              <div className="text-[16px] text-[#bdbdbd] font-bold tracking-wide">
                 UTR: {utr}
               </div>
 
@@ -191,7 +191,7 @@ export default function Page() {
         </div>
 
         <div className="flex justify-center my-3">
-          <div className="h-[1px] w-[370px] bg-gray-700"></div>
+          <div className="h-[0.2px] w-[370px] bg-[#bdbdbd]/40"></div>
         </div>
 
         {/* IMAGE */}
@@ -219,12 +219,12 @@ export default function Page() {
 
         </div>
 
-        <MdKeyboardArrowRight className="text-2xl font-bold tracking-wide"/>
+        <MdKeyboardArrowRight className="text-2xl font-bold tracking-wide" />
 
       </div>
 
       {/* FOOTER */}
-      <div className="text-center text-[13px] text-gray-400 mt-9 flex flex-col items-center font-bold tracking-wide">
+      <div className="text-center text-[13px] text-[#bdbdbd] mt-5 flex flex-col items-center font-bold tracking-wide">
 
         <span className="tracking-wide font-bold">
           Powered by
